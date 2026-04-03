@@ -7,5 +7,5 @@ WPU resolusi:
   3.Numerical Method
   4.Operating Systems
   5.Data Structures
-4. mulai memikirkan penjurusan
 5. jangan lupa aktif organisasi
+6. target ipk 3
