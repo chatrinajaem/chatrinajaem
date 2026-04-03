@@ -1,0 +1,42 @@
+GIT & GITHUB
+
+GIT merupakan salah satu dari yang biasa disebut dengan Version Control System.
+Version Control System disebut juga revision control system atau source code management adalah sistem yang 
+mengelola perubahan dari sebuah dokumen, program komputer, website dan kumpulan informasi lain.
+https://em.wikipedia.org/wiki/Version_control
+
+kenapa harus pakai VCS?
+kita bisa melacak versi atau histori dari perubahan yang terjadi pada software kita dan ketika kolaborasi 
+menjadi lebih mudah, dan juga ketika ingin membagikan produk yang dibuatkan ke orang lain.
+
+devinisi Version Control Systems:
+- Sebuah sistem yang menyimpan 'rekaman / snapshot' perubahan pada source code.
+- Memungkinkan bekerja berkolaborasi dengan lebih baik.
+- Mengetahui siapa yang melakukan dan kapan sebuah perubahan terjadi.
+- Memungkinkan kita untuk kembali ke keadaan ksebelum perubahan (checkout).
+
+repository / repo = folder
+GIT akan menyimpan setiap rangkaian perubahannya dengan menggunakan commit.
+Branch = cabang
+Merge = menggabungkan beberapa branch
+
+GITHUB adalah sebuah website yang bisa upload file atau bikin file, dan filenya bisa di kelola menggunakan version control systems.
+singkatnya GITHUB itu layanan cloud untuk menyimpan & mengelola project / repo git.
+
+penggabungan GIT & GITHUB
+kita bisa menyirim project GIT ke GITHUB begitu sebaliknya.
+proses mengirim file / project dari GIT ke GITHUB disebut push.
+proses pengambilan file / project dari GITHUB ke GIT disebut pull.
+yang di push / di pull itu adalah commit.
+
+istilah GIT:
+-repo = folder project
+-commit = rekaman / snapshot dari repo
+-hash = penanda unik pada sebuah commit
+-checkout = berpindah ke sebuah commit
+-branch = cabang sebuah commit
+-merge = menggabungkan beberapa branch
+-remote = sumber yang memiliki repo
+-clone = mengambil repo dari remote
+-push = mengimkan commit dari repo
+-pull = mengambil commit dari repo
