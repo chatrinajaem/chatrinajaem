@@ -1,0 +1,9 @@
+WPU resolusi:
+1. melancarkan memakai Github
+2. belajar bahasa inggris
+3. fokus satu persatu matkul:
+  1.Back End Programming
+  2.Algebra & Discrete Mathematics
+  3.Numerical Method
+  4.Operating Systems
+  5.Data Structures
