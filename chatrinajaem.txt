@@ -9,3 +9,4 @@ WPU resolusi:
   5.Data Structures
 5. jangan lupa aktif organisasi
 6. target ipk 3
+7. jangan lupa makan
