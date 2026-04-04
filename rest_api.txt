@@ -1,0 +1,62 @@
+Application Programming Interface (API)
+API adalah sekumpulan fungsi, subroutine, protokol komunikasi, atau kakas / tools untuk membuat perangkat lunak.
+interface / antarmuka adalah bagian yang sama antara dua atau lebih komponen yang terpisah pada sebuah sistem kompuer.
+definisi API:
+- Antarmuka yang berupa kumpulan fungsi yang dapat di-panggil atau dijalankan oleh program lain.
+- penerapannya sangat luas
+  - Bahasa pemrograman
+  - Libary & framework
+  - sistem operasi
+  - web API / web service
+
+contoh penerapan:
+1. Bahasa Pemrograman
+______________________________________________________________________________________
+// mysql
+$mysql = new mysqli("localhost", "root", "root", "mahasiswa");
+$result = $mysqli->query("SELECT * FROM mahasiswa");
+$row = $result->fetch_assoc();
+
+// PDO
+$pdo = new PDO('mysql:host=localhost;dbname=mahasiswa', 'root', 'root');
+$statement = $pdo->quary("SELECT * FROM mahasiswa");
+$row = $statement->fetch(PDO::FETCH_ASSOC);
+_______________________________________________________________________________________
+ketika memakai bahasa php ada 2 cara kalau ingin terhubung dengan DBMS mysql, bisa menggunakan sebuah script yang namanya mysqli atau pdo.
+API sebuah cara untuk menghubungkan 2 program yang berbeda.
+istilahnya adalah koneksi ke database mysql menggunakan 2 API yang berbeda di bahasa pemograman PHP.
+
+________________________________________________________
+// javascript
+let tombol = document.quarySelector('#tombol');
+judul.addEventListener('click', function() {
+  console.log('tombol ditekan');
+});
+________________________________________________________
+kalau memakai javascript dan ingin berinteraksi dengan halaman html.
+ada yang disebut document object model, untuk mengambil elemen didalam DOM, bisa memakai 1 method di dalam javascript namanya quarySelector.
+API untuk mengakses elemen pada DOM di bahasa pemrograman javascript.
+
+2. Framework / library
+___________________________________________________
+$this->db->get('mahasiswa');
+___________________________________________________
+jika kalian pake codelgniter, jika ingin mengambil semua data dari tabel mahasiswa, tidak perlu repot nulisin sintaks sql, cukup panggil APInya aja yang ada di codelgniter.
+API JQuery untuk mengambil data menggunakan ajax.
+
+3. Sistem Operasi
+-Windows API:
+  ^Base Service : kernel.dll
+  ^Graphic Device Interface : win32k.sys
+  ^User Interface : user32.dll
+-IOS API
+  ^Contact : 
+
+4. WEB API / WEB SERVICE
+- SOAP (Simple Object Access Protocol)
+- REST (REpresentational State Transfer)
+
+WEB API / WEB SERVICE adalah sebuah sistem perangkat lunak yang dibuat untuk mendukung
+interoperabilitas / interaksi antar 2 aplikasi yang berbeda melalui jaringan.
+
+MySQL disebut juga dengan DBMS / Database Management Systems
