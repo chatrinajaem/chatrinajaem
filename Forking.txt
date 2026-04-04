@@ -1,0 +1,5 @@
+- Fork / forking ini membuat 'copy / duplikat' dari  repo orang lain (beserta historynya)
+- jembatan antara repo original dan duplikatnya
+- modifikasi terhadap repo original
+- berkontribusi pada repo orang lain
+fork != clone
