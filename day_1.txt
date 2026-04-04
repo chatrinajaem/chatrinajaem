@@ -1,1 +1,2 @@
 membuat branch dari github, ternyata lebih gampang anjirr
+kenapa di github saya branch utamanya main bukan master?
