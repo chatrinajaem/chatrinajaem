@@ -1,0 +1,24 @@
+membuat branch di github langsung
+Branch adalah jalur 'development' bebas dari sebuah commit.
+checkout adalah perpindahan ke branch / commit yang lain.
+pull request itu meminta pemilik repo untuk 'mengambil' perubahan yang telah dilakukan.
+merge untuk menggabungkan 2 branch.
+merge conflict baris yang diubah oleh 2 branch yang berbeda, ketika baris yang sama di ubah oleh 2 branch berbeda.
+di kode editor ada tanda lebih kecil dari, lebi besar dari dan sama dengan
+contoh:
+- Javascript
+  * ES6
+  * framework javascript
+<<<<<<<< riri
+^ Angular
+^ React
+======== --> diminta pilih yang diantara atas atau bawah
+^ Vue
+^ React
+- Struktur Data Dasar
+>>>>>>>> main
+- PHP Frameworks
+^ Laravel
+- Interview
+- Vlogs
+perubahan yang ada di atas dan dibawah ===== 
