@@ -60,3 +60,20 @@ WEB API / WEB SERVICE adalah sebuah sistem perangkat lunak yang dibuat untuk men
 interoperabilitas / interaksi antar 2 aplikasi yang berbeda melalui jaringan.
 
 MySQL disebut juga dengan DBMS / Database Management Systems
+
+ilustrasi REST API:
+https://www.youtube.com/watch?v=s7wmiS2mSXY
+
+API adalah penghubung
+REST API adalah aturannya
+ada Request & Response
+data yang dikirim / diterima berupa JSON
+
+REST API:
+- Gaya perancangan / Architectural Style
+- Stateless
+- By. Roy Fielding, di disertasi PhD-nya
+- Hampir selalu menggunakan HTTP
+- Memungkinkan interaksi antar mesin
+
+HTTP / Hypetext Transfer Protocol
